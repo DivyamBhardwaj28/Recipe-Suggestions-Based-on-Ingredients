@@ -1,4 +1,4 @@
-# 🥗 Ingredient-Based Recipe Search Web App
+# [🥗 Ingredient-Based Recipe Search Web App](https://recipe-suggestions-based-on-ingredients.onrender.com)
 
 A web application built with **Flask** that allows users to input a list of ingredients and receive relevant recipes from a large offline dataset. 
 The app is ideal for those who want to make the most out of their available ingredients and discover new dishes without having to search the internet manually.
