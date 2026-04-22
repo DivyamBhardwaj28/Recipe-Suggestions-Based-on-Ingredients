@@ -1,31 +1,31 @@
-# [🥗 Ingredient-Based Recipe Search Web App](https://recipe-suggestions-based-on-ingredients.onrender.com)
+# [ Ingredient-Based Recipe Search Web App](https://recipe-suggestions-based-on-ingredients.onrender.com)
 
 A web application built with **Flask** that allows users to input a list of ingredients and receive relevant recipes from a large offline dataset. 
 The app is ideal for those who want to make the most out of their available ingredients and discover new dishes without having to search the internet manually.
 
 ---
 
-## 🌟 Key Features
+##  Key Features
 
-- 🔎 **Search Recipes by Ingredients**: Type in what ingredients you have, and the app returns matching recipes.
-- ✅ **Cleans & Validates Recipe Data**: Filters out incomplete or noisy entries to improve result quality.
-- 📖 **Formatted Output**: Recipes are displayed with clear sections for the title, ingredients, and instructions.
-- 🗃️ **Offline Dataset Support**: Uses a pre-downloaded dataset of 200k+ recipes from real-world sources.
-- ⚡ **Fast Search**: Ingredient matching is optimized by checking lowercased strings.
-- 🧪 Great for learning Flask, file handling, and data preprocessing!
+- **Search Recipes by Ingredients**: Type in what ingredients you have, and the app returns matching recipes.
+- **Cleans & Validates Recipe Data**: Filters out incomplete or noisy entries to improve result quality.
+- **Formatted Output**: Recipes are displayed with clear sections for the title, ingredients, and instructions.
+- **Offline Dataset Support**: Uses a pre-downloaded dataset of 200k+ recipes from real-world sources.
+- **Fast Search**: Ingredient matching is optimized by checking lowercased strings.
+- Great for learning Flask, file handling, and data preprocessing!
 
 ---
 
-## 🔧 Setup Instructions
+## Setup Instructions
 
-### 1. 🔁 Clone the Repository
+### 1.  Clone the Repository
 
 ```bash
 git clone https://github.com/yourusername/recipe-search-app.git](https://github.com/DEATHR34P3R/Recipe-Suggestions-Based-on-Ingredients
 cd Recipe-Suggestions-Based-on-Ingredients
 ```
 
-### 2. 📦 Install Dependencies
+### 2.  Install Dependencies
 
 Ensure Python 3.7+ is installed. Then install Flask:
 
@@ -33,7 +33,7 @@ Ensure Python 3.7+ is installed. Then install Flask:
 pip install flask
 ```
 
-### 3. 📥 Add the Dataset
+### 3.  Add the Dataset
 
 Download the dataset `recipes_raw.zip` from (https://eightportions.com/) or from another source and place it in **one of these locations**:
 
@@ -44,7 +44,7 @@ Download the dataset `recipes_raw.zip` from (https://eightportions.com/) or from
 
 ---
 
-## 🚀 How to Run the App
+##  How to Run the App
 
 Run the Flask app using:
 
@@ -60,7 +60,7 @@ http://127.0.0.1:5000/
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 1. **User Input**: On the homepage, the user enters a comma-separated list of ingredients.
 2. **Dataset Extraction**:
@@ -95,7 +95,7 @@ http://127.0.0.1:5000/
 
 ---
 
-## 🧪 Example Usage
+##  Example Usage
 
 ### Input
 
@@ -133,7 +133,7 @@ onion, chicken, garlic
 
 
 
-## 🙋 FAQ
+## FAQ
 
 **Q: Why use a ZIP file and not raw JSON?**  
 A: To keep the app lightweight and allow bundling of all source JSONs in one place.
